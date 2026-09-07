@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-server-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between Google Apps Script and WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
